@@ -1,4 +1,22 @@
+# EaseFilter File Security Java SDK
 
+[![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)]()
+[![Language](https://img.shields.io/badge/Language-Rust-success.svg)]()
+[![License](https://img.shields.io/badge/License-Commercial-orange.svg)]()
+![Security](https://img.shields.io/badge/Security-AES--256-red)
+
+The **EaseFilter File Security Java SDK** bridges the gap between enterprise Java applications and low-level Windows kernel operations. It provides a thread-safe JNI wrapper over the EaseFilter Windows Mini-Filter Driver, empowering Java developers to build robust **Endpoint Detection and Response (EDR)**, **Data Loss Prevention (DLP)**, **Ransomware Prevention**, and **Registry Security** agents directly within the JVM.
+<Image alt="EaseFilter System Architecture Diagram illustrating kernel and user mode communication" caption="EaseFilter File Security Architecture" src="https://www.easefilter.com/images/file-security-java-architecture.jpg"/>
+
+## Key Features
+
+- **Ransomware Protection**: Deny unauthorized write, rename, and delete operations at the kernel level.
+- **Transparent File Encryption (DLP)**: Enforce AES-256 encryption on disk while exposing decrypted streams only to whitelisted processes.
+- **Zero-Trust Process Filtering**: Monitor process creation, inspect command-line arguments, authorize specific users/processes, and block unauthorized binaries.
+- **Registry Security**: Protect sensitive registry hives against malicious tampering or persistence attempts.
+- **Intuitive Builder Pattern**: Configure complex kernel-level policies using fluent, immutable Java builders.
+
+---
 # EaseFilter Java Demo
 EaseFilter File Security SDK is a comprehensive solution designed for developers to implement file-level security, encryption, access control, and auditing directly within their applications. By integrating this SDK, developers can enforce data protection policies, monitor file operations in real time, and prevent unauthorized access across multiple environments.
 
