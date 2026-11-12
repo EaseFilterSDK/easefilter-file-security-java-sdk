@@ -1,7 +1,7 @@
 # EaseFilter File Security Java SDK
 
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)]()
-[![Language](https://img.shields.io/badge/Language-Rust-success.svg)]()
+[![Language](https://img.shields.io/badge/Language-Java-success.svg)]()
 [![License](https://img.shields.io/badge/License-Commercial-orange.svg)]()
 ![Security](https://img.shields.io/badge/Security-AES--256-red)
 
